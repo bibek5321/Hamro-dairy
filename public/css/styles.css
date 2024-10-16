@@ -1,0 +1,340 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+}
+
+h1, h2, h5 {
+    color: #333;
+}
+
+.navbar-brand img {
+    height: 40px;
+}
+
+
+.navbar a{
+     margin: 6px;
+     padding: 5px;
+}
+
+#searchForm{
+    margin-left: 100px;
+}
+
+.carousel-inner img {
+    height: 500px;
+    object-fit: cover;
+    
+}
+
+
+
+.carousel-caption {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    
+}
+
+
+.carousel-caption h1 {
+    font-size: 4rem;
+    color: #2d2d2d;
+    font-family: 'Poppins', sans-serif; /* Change this to any custom Google Font if needed */
+    font-weight: bold;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    position: relative;
+    display: inline-block;
+   
+}
+
+
+/* Adding a underline effect */
+.carousel-caption h1::after {
+    content: '';
+    width: 100px;
+    height: 5px;
+    background-color: #0077b6; /* Light blue underline */
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 50px;
+}
+
+
+.about-us {
+    background-color: #ececec;
+    padding: 50px 0;
+    height: 300px;
+}
+
+.about-text h2 {
+    color: #555;
+}
+
+.card-title, .card-text {
+    color: #333;
+}
+
+.card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+a {
+    text-decoration: none;
+}
+
+.navbar-brand {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: white;
+    padding-right:200px;
+}
+
+.navbar-brand {
+    margin-right: 100px;
+
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #ddd;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: white;
+}
+
+.btn-outline-light:hover {
+    background-color: white;
+    color: #000;
+}
+
+/* Button Styles */
+button, .btn {
+    border-radius: 4px;
+}
+
+.btn-dark {
+    background-color: #333;
+    color: white;
+    border: none;
+}
+
+.btn-dark:hover {
+    background-color: #000;
+}
+
+.btn-success {
+    background-color: #5cb85c;
+    border: none;
+}
+
+.btn-danger {
+    background-color: #d9534f;
+    border: none;
+}
+
+/* Footer */
+
+
+/* Form Section (Login/Register) */
+.login-section, .register-section {
+    background-color: #e9ecef;
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Card Layout */
+.card {
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card h2 {
+    color: #333;
+}
+
+.card form input {
+    border-radius: 4px;
+}
+
+.card form input:focus {
+    border-color: #333;
+    box-shadow: none;
+}
+
+/* Table (Cart Page) */
+.table {
+    background-color: white;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.table thead {
+    background-color: #333;
+    color: white;
+}
+
+.table tbody tr:hover {
+    background-color: #f8f9fa;
+}
+
+.table tbody td {
+    vertical-align: middle;
+}
+
+/* Cart Section */
+.cart-section {
+    background-color: #f8f9fa;
+}
+
+.cart-section h2 {
+    color: #333;
+}
+
+/* Product Section */
+.product-card {
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+.product-card:hover {
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+}
+/* footer */
+.foot{
+    background-color: #050303;
+    color: white;
+    justify-content: center;
+    position: fixed;
+    bottom:0;
+    margin-top: 200px;
+    width: 100%;
+}
+
+.foot p{
+     padding: 20px;
+    justify-content: center;
+    display: flex;
+}
+
+
+
+
+.row img{
+    height: 250px;
+    width: 300px;
+    padding-left: 20px;
+}
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+.offer-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    background: linear-gradient(135deg, #555, #555);
+    
+   
+}
+.offer-container img{
+    height: 200px;
+    width: 200px;
+    padding-left: 20px;
+}
+
+.offer-content {
+    text-align: center;
+    background-color: #fff;
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 0 5px 20px rgb(207, 201, 201);
+    max-width: 400px;
+    width: 100%;   
+    margin: 30px;
+    margin-top: 100px;
+}
+
+.offer-content h2 {
+    font-size: 36px;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.offer-content p {
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 15px;
+}
+
+.offer-code {
+    font-weight: bold;
+    background-color: #555;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #19110e;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+
+
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+    .navbar-brand {
+        font-size: 1.5rem;
+    }
+
+    .navbar-nav {
+        margin-top: 15px;
+    }
+
+    .card {
+        width: 100%;
+        padding: 20px;
+    }
+    footer {
+        background-color: #343a40;
+        color: white;
+        padding: 10px 0;
+        
+    }
+}
+
+
